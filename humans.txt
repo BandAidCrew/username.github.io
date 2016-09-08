@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Henry -- Code Monkey
+    Magnus -- Chief Design Officer
+    Daniel -- Tech Genius
+
+
+# THANKS
+
+    Mom, for baking us cookies.
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Javascript
