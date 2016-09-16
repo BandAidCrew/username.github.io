@@ -1,14 +1,58 @@
 .wrapper {
   width: 960px;
   margin: auto;
-  font-family: Helvetica,Georgia, Verdana, "Geneva", Georgia, Arial, "Times New Roman", Courier;
+  font-family: Helvetica, Georgia, Verdana, "Geneva", Georgia, Arial, "Times New Roman", Courier;
   max-width: 75ch;
   line-height: 1.5;
   padding-left: 50px;
   padding-right: 50px;
   border: 2px dashed;
   background-color: white;
+  position: relative;
 }
+
 body {
   background-color: darkgrey;
+  min-width: 960px;
+}
+
+img#Logo {
+  width: 200px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  margin: 200px;
+  z-index: 5;
+}
+
+#daniel {
+  max-width: 100px;
+  position: absolute;
+  right: 300px;
+  top: 200px;
+  z-index: 3;
+}
+
+#henry {
+  max-width: 100px;
+  position: absolute;
+  right: 259px;
+  top: 120px;
+  z-index: 2;
+}
+
+#magnus {
+  max-width: 78px;
+  position: absolute;
+  right: 191px;
+  top: 103px;
+  z-index: 4;
+}
+
+#nils {
+  max-width: 140px;
+  position: absolute;
+  right: 196px;
+  top: 132px;
+  z-index: 1;
 }
