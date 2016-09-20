@@ -24,6 +24,9 @@ img#Logo {
   margin: 200px;
   z-index: 5;
 }
+#palett{
+  max-width: 300px;
+}
 
 #daniel {
   max-width: 100px;
