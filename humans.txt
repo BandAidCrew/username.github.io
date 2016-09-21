@@ -6,11 +6,12 @@
     Henry -- Code Monkey
     Magnus -- Chief Design Officer
     Daniel -- Tech Genius
+    Nils -- Human Resources Technical Support
 
 
 # THANKS
 
-    Mom, for baking us cookies.
+    Mom - for baking us cookies.
 
 # TECHNOLOGY COLOPHON
 
