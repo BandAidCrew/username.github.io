@@ -16,46 +16,46 @@ body {
   min-width: 960px;
 }
 
-img#Logo {
+#logo {
   width: 200px;
   position: absolute;
-  top: 0;
-  right: 0px;
-  margin: 200px;
+  top: 100px;
+  right: 100px;
   z-index: 5;
-}
-#palett{
-  max-width: 300px;
 }
 
 #daniel {
   max-width: 100px;
   position: absolute;
-  right: 300px;
-  top: 200px;
+  right: 200px;
+  top: 100px;
   z-index: 3;
 }
 
 #henry {
   max-width: 100px;
   position: absolute;
-  right: 259px;
-  top: 120px;
+  right: 159px;
+  top: 20px;
   z-index: 2;
 }
 
 #magnus {
   max-width: 78px;
   position: absolute;
-  right: 191px;
-  top: 103px;
+  right: 91px;
+  top: 3px;
   z-index: 4;
 }
 
 #nils {
   max-width: 140px;
   position: absolute;
-  right: 196px;
-  top: 132px;
+  right: 96px;
+  top: 32px;
   z-index: 1;
+}
+
+#palett{
+  max-width: 300px;
 }
