@@ -95,3 +95,18 @@ thead {
 td[colspan = "2"], td[colspan = "4"] {
   background-color: #efefef;
 }
+
+#content figure {
+  float: right;
+  width: 300px;
+  padding-left: 20px;
+  margin-top: 0px;
+}
+
+#content img {
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5 h6 {
+  clear: both;
+}
