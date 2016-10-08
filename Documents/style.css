@@ -6,6 +6,7 @@
   line-height: 1.5;
   padding-left: 50px;
   padding-right: 50px;
+  padding-bottom: 50px;
   border: 2px dashed;
   background-color: white;
   position: relative;
@@ -58,4 +59,39 @@ body {
 
 #palett{
   max-width: 300px;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+ul {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.nobullet li {
+  list-style-type: none;
+}
+
+td, th {
+  border: 1px solid;
+  padding: 4px 10px 4px 4px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: lightgrey;
+}
+
+td[colspan = "2"], td[colspan = "4"] {
+  background-color: #efefef;
 }
