@@ -43,6 +43,36 @@ p{
 
 /* @end */
 
+/* @group Header */
+
+.header{
+	position: relative;
+}
+.header>img{
+	width: 150px;
+}
+#logo{
+	position: absolute;
+right: 45%;
+}
+
+#logoText-left{
+	/*display: block;*/
+	font-size: 86px;
+	float: left;
+	position: relative;
+	left: 20%;
+}
+#logoText-right{
+	/*display: block;*/
+	font-size: 86px;
+	float: right;
+	position: relative;
+	right: 20%;
+}
+
+/* @end */
+
 body,.darkBackground{
 	background: #374140;
 	color: #D9CB9E;
@@ -51,18 +81,13 @@ body,.darkBackground{
 	background: #D9CB9E;
 	color: #1E1E20;
 }
-.header>img{
-	width: 150px;
-}
 .wrapper {
   display: flex;
   flex-flow: row wrap;
-  font-weight: bold;
-  text-align: center;
 }
 
 .wrapper>* {
-  padding: 10px;
+  padding: 1px;
   flex: 1 100%;
 }
 
