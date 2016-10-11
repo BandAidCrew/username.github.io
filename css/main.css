@@ -26,13 +26,15 @@ p{
 
 .menu-bar>ul{
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+	display: flex;
+	margin-top: 0;
+	margin-bottom: 0;
+	/*overflow: hidden;*/
 	background-color: #2A2C2B;
 }
 .menu-bar>ul>li{
-	float: left;
+	/*float: left;*/
+	margin: auto;
 }
 .menu-bar>ul>li>a{
 	display: block;
@@ -53,7 +55,7 @@ p{
 }
 #logo{
 	position: absolute;
-right: 45%;
+	right: 45%;
 }
 
 #logoText-left{
@@ -73,7 +75,27 @@ right: 45%;
 
 /* @end */
 
-body,.darkBackground{
+body{
+	margin: 0;
+	padding: 0;
+	background: black;
+}
+.wrapper{
+	margin: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+content>div{
+	display: flex;
+	align-items: center;
+}
+content>div>div{
+	/*padding-left: 10%;*/
+	/*padding-right: 10%;*/
+	margin:auto;
+}
+
+.darkBackground{
 	background: #374140;
 	color: #D9CB9E;
 }
