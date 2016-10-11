@@ -1,0 +1,34 @@
+#memberContainer{
+	display: flex;
+	align-items: center;
+}
+
+#memberContainer>div{
+	padding: 20px;
+	margin: auto;
+}
+#memberContainer>div>img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+}
+
+#eventWrapper{
+	display: flex;
+	align-items: center;
+}
+
+#eventWrapper>div{
+	margin: auto;
+}
+
+#photoWrapper{
+	display: flex;
+	align-content: center;
+}
+
+#photoWrapper>img{
+	width: 200px;
+	margin: auto;
+}
+
