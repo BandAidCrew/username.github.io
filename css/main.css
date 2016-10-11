@@ -19,11 +19,11 @@
 }
 
 .main {
-  text-align: left;
+  text-align: center;
   background: deepskyblue;
 }
 
-.aside-left{
+.aside-left {
   background: hotpink;
 }
 
@@ -38,8 +38,8 @@
 }
 
 @media all and (min-width:800px) {
-  .aside-left{
-    order:1;
+  .aside-left {
+    order: 1;
   }
   .main {
     flex: 3 0px;
@@ -55,4 +55,46 @@
 
 body {
   padding: 2em;
+}
+
+.mediabox {
+  width: 400px;
+  float: right;
+}
+
+.photowall>img {
+  width: 200px;
+}
+
+.members>img {
+  width: 200px;
+  margin: 20px;
+}
+
+.introduction {
+  height: 300px;
+  background-color: yellow;
+}
+
+.events {
+  display: flex;
+  width: 80%;
+  background-color: yellow;
+  margin: auto;
+  text-align: center;
+}
+
+.left {
+  background-color: white;
+  order: 1;
+}
+
+.middle {
+  background-color: grey;
+  order: 2;
+}
+
+.right {
+  background-color: green;
+  order: 3;
 }
