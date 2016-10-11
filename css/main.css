@@ -96,6 +96,14 @@ body,.darkBackground{
   color: #D9CB9E;
 }
 
+.footer{
+	display: flex;
+	align-items: center;
+}
+.footer>div{
+	margin: auto;
+}
+
 @media all and (min-width:550px) {
   .aside {
     flex: 1 auto;
