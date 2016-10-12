@@ -38,7 +38,7 @@ p{
 }
 
 /* @group Menu-bar */
-.menu-bar>ul{
+#menu-bar>ul{
 	list-style-type: none;
 	margin: 0;
 	/*padding: 0;*/
@@ -47,11 +47,11 @@ p{
 	/*display: flex;*/
 	/*flex-flow: row wrap;*/
 }
-.menu-bar>ul>li{
+#menu-bar>ul>li{
 	float: left;
 	/*margin: auto;*/
 }
-.menu-bar>ul>li>a{
+#menu-bar>ul>li>a{
 	display: block;
 	text-align: center;
 	padding: 14px 16px;
