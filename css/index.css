@@ -27,7 +27,7 @@
 
 #photoWrapper{
 	display: flex;
-	align-content: center;
+	align-items: center;
 	flex-flow: row wrap;	
 }
 
