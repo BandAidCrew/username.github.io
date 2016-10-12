@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <meta charset="utf-8">
+  <title>P2 Project Design</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <h1>P2 Project Design</h1>
+    </header>
+    <div class="main">
+      <section>
+        
+        <h2>Written by</h2>
+        <ul>
+          <li>
+            <b>Magnus Vatne</b>
+          </li>
+          <li>
+            <b>Daniel Lundeby</b>
+          </li>
+          <li>
+            <b>Henry Sjøen</b>
+          </li>
+          <li>
+            <b>Nils Joakim Ulvund</b>
+          </li>
+        </ul>
+
+        <br><br><br>
+
+        <p>
+          Date: October 8, 2016
+        </p>
+        <div id="logo-group">
+          <img id="logo" src="img/logo.png" alt="A delicious looking ham in a crate."/>
+          <img id="daniel" src="img/svgMembers/daniel.svg" alt="" />
+          <img id="henry" src="img/svgMembers/henry.svg" alt="" />
+          <img id="magnus" src="img/svgMembers/magnus.svg" alt="" />
+          <img id="nils" src="img/svgMembers/nils.svg" alt="" />
+        </div>
+        <hr>
+        
+      </section>
+      
+      <section>
+        <h2>Administrative details</h2>
+        <p>
+          Our client is the band Ham Crate.<br>
+          Our contact person is Frank Crate.<br><br>
+          
+          Ham Crate is a newly started band, starting to get a few streams on SoundCloud. Frank is the main vocalist in the band. He is the spokesperson for the band and will be the one we communicate with and he will be our link to the band. It is also his responsibility to make sure that the demands from the band are communicated to us.
+        </p>
+          
+      </section>
+      
+      <section>
+        <h2>Site’s purpose and goals</h2>
+        <p>
+          The main goal of the web site is increasing the popularity of Ham Crate. This means getting more streams on SoundCloud, more views on YouTube and more people on concerts. This can be accomplished by supplying new music and pictures from concerts, as well
+          as an appealing design and impression of professionality. Another goal is keeping existing supporters and satisfy their wishes. To accomplish this, we plan to supply existing supporters with information about the band. This includes history,
+          information about band members, and upcoming events.
+        </p>
+      </section>
+      
+      <section>
+        <h2>Navigation Structure</h2>
+        <p>
+          The navigation structure can be described as a clique: Every webpage can be accessed from any webpage. However, the clique can be pictured as a hierarchical system, with the home page being the principal node:
+        </p>
+        
+        <figure>
+          <img src="img/navigation_structure.png" width="667" alt="Navigation structure">
+        </figure>
+        
+        <p>
+          The main web pages are accessible through the navigation bar, which is always visible on the top of all web pages. In addition, the home page contains a kind of summary of the most important content. The home page can be scrolled to view sections containing the most important part of the website, and it also links to them. Examples of sections on the home page are latest blog post, latest images and videos, and band member information.
+        </p>
+        
+        <p>
+          We have chosen a clique structure because of higher usability for the users. With this structure, the user can access any content with a single mouse click. It is also easier for the users to get an overview of the content that is actually available. A disadvantage with this kind of structure might be a messy interface if there are many pages. However, as the amount of content is quite small, the site won’t be too messy.
+        </p>
+        
+        <p>
+          It doesn’t make sense to make up some complex hierarchical structure. Also, a linear structure won’t be natural.
+        </p>
+        
+      </section>
+      
+      <section>
+        <h2>Page Layout and Appearance</h2>
+        <p>
+          The general structure of the site is as follows:
+        </p>
+        
+        <p>
+          Header which includes a logo and Big Text for the band name (The font-size is 80 px) and the Background color is greyish-black (#2A2C2B). Color for the text is beige (#D9CB9E).
+          In-between the header and the content, section we find the nav-bar. When scrolling down the page, the navbar should follow so that hte user always has it accessible. The color of the nav-bar should be greyish-black (#2A2C2B) and selected element should be tranquilizing-red (#DC3522). Text-color on greyish-black should be beige and text-color on tranquilizing-red should be almost black (#D9CB9E).
+        </p>
+        <p>
+          Then we have the content section. The main background color should be dark-greenish ( #374140). Sometimes a lighter beige background color is used on some divs to separate the sections. The text color on the page is in general beige (#D9CB9E), but if the section is beige, then the text should be almost black (#D9CB9E).
+          After the content, at the bottom of the page, there is a footer. The footer contains links to some relevant social media sites. All links in the page should be tranquilizing-red (#DC3522) with an underline.
+        </p>
+        
+        <p>
+          Take a look at the mockup to get a better feel for the website (unless you got crazy skills in visualizing things in your head).
+        </p>
+        
+        <p>
+          To sum it up in a better structure:
+        </p>
+        
+        <h3>Font</h3>
+        
+        <p>Font-family:</p>
+        <ul>
+          <li>Helvetica</li>
+        </ul>
+        <p>Sizes:</p>
+        <ul>
+          <li>h1: 26 px</li>
+          <li>h1: 20 px</li>
+          <li>h3, h4, 5: 18 px</li>
+          <li>p: 14px</li>
+        </ul>
+        
+        <h3>Colors</h3>
+        
+        <p>Color scheme:</p>
+        
+        <figure>
+          <img src="img/palett.png" width="380" alt="color pallette">
+        </figure>
+        <p>#DC3522, #D9CB9E, #374140, #2A2C2B, #1E1E20</p>
+        
+        Main background-color: #374140<br>
+        Alternate background-color: #D9CB9E <br>
+        Text colors: 
+        <ul>
+          <li>On dark background: #D9CB9E</li>
+          <li>On light background: #1E1E20</li>
+        </ul>
+        Link color: #DC3522<br>
+        Shadows: #2A2C2B<br>
+        Borders: #2A2C2B<br><br>
+        
+        <p>
+          The website should be center-aligned.
+          The viewport in the mockup has a width of 900px.
+          The website should be compatible with both mobile and computer-viewports. Thus i have provided you with two generic mockup-pages.
+        </p>
+        
+
+        <h3>Generic Mockup - Computer</h3>
+        <figure>
+          <img src=images/Generic_page.png width = "600" alt="Generic page">
+        </figure>
+        <p>
+          NB: The red rulers are there to illustrate the spacing between objects and not a part of the design.
+        </p>
+        
+        <h3>Generic Mockup - Mobile</h3>
+        <img src=images/Mobile_viewport.png width="400" alt="Mobile viewport">
+        <p>
+          As you can see from the mockup, the flow of the document responds to the smaller viewport. The navbar is collapsed into a (hamburger) drop-down menu, to make it more accessible on e.g. mobile phones. 
+        </p>
+        <p>
+          The design choices that is made is to reflect the personality of the band. Colors are mostly dark with light, something that Frank talked a lot about when he described the band Ham-Crate for us. Also we think the site is pleasing to look at and something that fit our target group.
+        </p>
+      </section>
+      
+      <section id="content">
+        
+        <h2>Content</h2>
+        <h3>Front page</h3>
+        <figure>
+          <img src="images/Index.png" alt="Front page">
+        </figure>
+        <p>
+          The front page is perhaps the most important page and will be designed so it will meet the needs of the viewers it is intended for. It will be a dynamic page with all the information a new visitor would want at a glance and the possibility to go into separate pages for each item with more information. These individual pages are described below and will be accessible from a menu bar at the top of the page.
+        </p>
+        <p>
+          The front page will be made up of different segments with the latest information, pictures, videos etc. These will stand underneath each other and will have different shades of grey in the background to mark the different elements. At the top of the page there will be the name of the band with a logo in the center. Underneath it there will be an easy accessible menu if you want to go directly to a page with all the content, for example the photo-page with all the different albums from different places. When you scroll down the page, the logo will disappear, but the menu will always stay on top of the page, no matter which page you are on, so you can easily maneuver from the different pages. The menu-bar height will be 60px so that it is easy visible at all times and the page that you are on will be highlighted in the menu by a red color, to give the user visual feedback of what page he is on.
+        </p>
+        <p>
+          The elements that will be include on the front page are as follows:
+        </p>
+        
+        <ul>
+          <li><b>Blog</b>
+            <p>
+              The first element to be shown on the front page is a preview for the blog. Here the latest blogpost will be shown. The element will be 300px high, so there will only be some of the text show if it is a long post. If there is a picture in the blogpost, it will be shown to the right in the element and will be of size: 250x195At the bottom right, there will be a link to read more at the designated blog-page.
+            </p>
+          </li>
+          <li><b>Members</b>
+            <p>
+              There will be 4 circular photos across the width of the page, one for each band member. The circle will have the size 166x166 Underneath each picture the name of the band member will be written. If you press one of the pictures, the picture will move to the left. Next to it there will be a short description about the selected band member. The  front page will be in the background, turned opaque. If you clique outside the picture or the text, you will return to the front page.
+            </p>
+          </li>
+          <li><b>Next event</b>
+            <p>
+              The next three events and their locations will be shown in a grid format. For more dates and places, there is a link at the bottom right of the segment that links to the page upcoming events.
+            </p>
+          </li>
+          <li><b>Photos</b>
+            <p>
+              Four pictures from the latest album will be displayed in small thumbnails (166x166). You can press one of the pictures to get view it in large and maneuver through all the pictures that are in this album. In the bottom right corner you can press a link that says more… and you will be directed to the page with all the photo albums which will be presented later in this text.
+            </p>
+          <li><b>Videos</b>
+            <p>
+              The latest video to be  posted is displayed here. It is showed in a small version to save space and loading time for the page, but it can be clicked and then viewed in a size that fills the screen. Also her there will be a link to the page with more videos of the band and such.
+            </p>
+          </li>
+        </ul>
+        
+        <p>
+          All these elements and the layout chosen is made this way to accommodate new potential fans. This way they get information about the band quickly and can listen to some of their music and see pictures from the latest event, because maybe that's where they heard about the band for the first time.
+        </p>
+        
+        <h3>Individual pages, in addition to being on the front page</h3>
+        
+        
+        <h4>About</h4>
+        <figure>
+          <img src="images/About.png" alt="About">
+        </figure>
+        <p>
+          A short description of the band and its history. Maybe a discography.
+          This will have a typical article format. At the top there will be a picture of the band. Then a short history of how the band was formed and such before there will be a section with a short bio about the band members. This will consist of the same pictures and text that could be found on the front page. The first picture will be on the left side with text on the right of it. The second picture will be on the right with the bio to the left of it and so on for the two last posts. This will create a good looking layout that will be pleasing to view.
+        </p>
+        <h4>Blog</h4>
+        <figure>
+          <img src="images/Blog.png" alt="Blog">
+        </figure>
+        <p>
+          The blog will consist of short blogpost ordered in a table. The band does not want long boring blogpost so they will limit each blogpost to maximum of 600 signs. So the page will be made up of small elements with each blogpost stacked underneath each other with pictures to the right, if there are some.
+        </p>
+        <h4>Upcoming events</h4>
+        <figure>
+          <img src="images/Upcoming_Events.png" alt="Upcoming events">
+        </figure>
+        <p>
+          A list of shows and location. Maybe a link to where you can order tickets.
+          The page will be built up of three columns, but without visible lines like in a table. In the first column, the dates are listed, starting with the closest show in time. The second column has the city and country and the last column will have the venue. When it is accessible, we will also link to the site where you can order tickets for the different venues. By having a list like this, fans can easily find out where the band is performing next or find the next time they are performing in a city close to them.
+        </p>
+        <h4>Music</h4>
+        <figure>
+          <img src="images/Music.png" alt="Music">
+        </figure>
+        <p>
+          Here some of the band’s music will be put up for fans to have a listen to a few of the greatest hits. The music will be retrieved from the band’s soundcloud site and be put in a grid showing as many elements as the viewport allows in horisontal axis, then following up under with the remaining elements. Soundcloud has a script that we will use with graphical interface. This will allow new visitors to get to know some of the band’s music and become fans and for fans to listen for free to some of their favorite songs. The page will only include at most 5 songs, so that visitors will buy a cd or listen to it on spotify to get more.
+        </p>
+        <h4>Photos</h4>
+        <figure>
+          <img src="images/Photos.png" alt="Photos">
+        </figure>
+        <p>
+          An awesome-looking gallery of pictures from shows and on the road. Maybe a display of pictures from the band’s Instagram account.
+          The page will be arranged with album thumbnails (166x166) in a grid format, with three albums in each row. Under each thumbnail there will be a short description about what and where the pictures are from. This will reduce the loading time and make it easier for a user to find the pictures that he wants. A user can choose an album he wants to check out and it will open as a large image (size depending on img), scaling to fit the viewport, and the user can navigate through the images by clicking on the right or left side of the image. The rest of the page behind the album being shown will be dark to not take attention from the pictures.
+        </p>
+        <h4>Videos</h4>
+        <figure>
+          <img src="images/Videos.png" alt="Videos">
+        </figure>
+        <p>
+          Music videos and vlogs (video-blogs) from life “on the road”.	
+          The video-page will be arranged the same way as the music-page. Videos will lie in a grid with three videos in each row and you can make it fill the page so you can view it in all its glory. The videos will be hosted on youtube, where they lie in the band’s youtube page. The videos will be sorted by when they are published, with the newest videos in the top left corner. This will make it easier for visitors to find the content they want. Each video will also have a short description of the content and date published underneath it.
+        </p>
+        <h4>Merchandice</h4>
+        <figure>
+          <img src="images/Merch.png" alt="Merchandise">
+        </figure>
+        <p>
+          Here we will have a page to showcase all the merchandise that dedicated fans can buy: such as t-shirts, music, posters or an all exclusive signed ham crate with real ham from the ham producer Stabburet.<br>
+          The page will be structured with all the products being shown underneath each other with a picture of the product (160px) to the right and a short description of the product with sizes available, colors etc. At the bottom it will say that if you want to order something, just send an email to frank@hamcrate.rocks.
+        </p>
+      </section>
+      
+      <section>
+        <h2>Minimum Requirements</h2>
+        <p>
+          We plan to fulfil the minimum JavaScript requirements by implementing the four functionalities listed below. Each of the group members will be in charge of one functionality.
+        </p>
+        <ol>
+          <li><b>Band member info textbox</b>. When clicking the image of a band member, a textbox with info about the member should show up. A maximum of one textbox should be visible at given point of time.
+          </li>
+          <li><b>Image and video focus</b>. When choosing an image or video, it should enlarge and center on the screen, and the background should be in grayscale. This will enable the users to focus on the content of the media.
+          </li>
+          <li><b>Image slideshow</b>. New images should appear automatically after a certain time limit. When clicking on arrows on the left and right of the image, new images should appear.
+          </li>
+          <li><b>Menu button fading</b>. When hovering over menu buttons, the buttons should fade in. This contributes to make transitions more smooth.
+          </li>
+        </ol>
+      </section>
+      
+      <section>
+        <h2>Plan</h2>
+        <p>
+          The following scheme shows our intended organizational strategy for creating and storing files for the web page.
+        </p>
+        <h3>Organizational scheme for files</h3>
+        
+        folder/
+        <ul class="nobullet">
+          <li>index.html</li>
+          <li>about.html</li>
+          <li>events.html</li>
+          <li>music.html</li>
+          <li>videos.html</li>
+          <li>photos.html</li>
+          <li>merchandise.html</li>
+          <li>blog.html</li>
+          <li>img/
+            <ul>
+              <li>apple-touch-icon.png</li>
+              <li>logo.png</li>
+              <li>blog1.jpg</li>
+              <li>blog2.jpg</li>
+              <li>blog3.jpg</li>
+              <li>merch1.jpg</li>
+              <li>merch2.jpg</li>
+              <li>merch3.jpg</li>
+              <li>...</li>
+              <li>members/
+                <ul>
+                  <li>member1.jpg</li>
+                  <li>member2.jpg</li>
+                  <li>member3.jpg</li>
+                  <li>member4.jpg</li>
+                  <li>member-all.jpg</li>
+                </ul>
+              </li>
+              <li>gallery/
+                <ul>
+                  <li>gallery1.jpg</li>
+                  <li>gallery2.jpg</li>
+                  <li>gallery3.jpg</li>
+                  <li>gallery4.jpg</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>music/
+            <ul>
+              <li>music1.mp3</li>
+              <li>music2.mp3</li>
+              <li>music3.mp3</li>
+            </ul>
+          </li>
+          <li>video/
+            <ul>
+              <li>video1.mp4</li>
+              <li>video2.mp4</li>
+              <li>video3.mp4</li>
+            </ul>
+          </li>
+          <li>css/
+            <ul>
+              <li>main.css</li>
+            </ul>
+          </li>
+          <li>js/
+            <ul>
+              <li>main.js</li>
+            </ul>
+          </li>
+          <li>favicons/
+            <ul>
+              <li>android-chrome-192x192.png</li>
+              <li>android-chrome-512x512.png</li>
+              <li>apple-touch-icon-120x120.png</li>
+              <li>apple-touch-icon-152x152.png</li>
+              <li>apple-touch-icon-180x180.png</li>
+              <li>apple-touch-icon-60x60.png</li>
+              <li>apple-touch-icon-76x76.png</li>
+              <li>apple-touch-icon.png</li>
+              <li>favicon-16x16.png</li>
+              <li>favicon-32x32.png</li>
+              <li>favicon.ico</li>
+            </ul>
+          </li>
+          
+        </ul>
+        
+        <h3>Work division and deadlines</h3>
+        <p>
+          Note that the deadline denotes when the work should be finished. We will however start doing work on later parts of the project at an earlier stage, if we have time.
+        </p>
+        
+        <table>
+          <thead>
+            <tr>
+              <th>Filename</th>
+              <th>Description</th>
+              <th>Responsible</th>
+              <th>Deadline</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="4"><i>HTML and CSS</i></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Site template</td>
+              <td>Everyone</td>
+              <td>16. nov</td>
+            </tr>
+            <tr>
+              <td>index.html</td>
+              <td>The front/home page.</td>
+              <td>Henry</td>
+              <td>23. nov</td>
+            </tr>
+            <tr>
+              <td>about.html</td>
+              <td>Description of the band and its history.</td>
+              <td>Nils</td>
+              <td>23. nov</td>
+            </tr>
+            <tr>
+              <td>blog.html</td>
+              <td>Blog archive.</td>
+              <td>Magnus</td>
+              <td>23. nov</td>
+            </tr>
+            <tr>
+              <td>merchandise.html</td>
+              <td>Showcase of merchandise.</td>
+              <td>Daniel</td>
+              <td>23. nov</td>
+            </tr>
+            <tr>
+              <td>music.html</td>
+              <td>Samples of the band’s music, soundcloud.</td>
+              <td>Nils</td>
+              <td>30. nov</td>
+            </tr>
+            <tr>
+              <td>photos.html</td>
+              <td>An “awesome-looking” gallery of pictures.</td>
+              <td>Magnus</td>
+              <td>30. nov</td>
+            </tr>
+            <tr>
+              <td>videos.html</td>
+              <td>Page for viewing music videos and vlogs.</td>
+              <td>Magnus</td>
+              <td>30. nov</td>
+            </tr>
+            <tr>
+              <td>events.html</td>
+              <td>A list of shows and locations.</td>
+              <td>Daniel</td>
+              <td>30. nov</td>
+            </tr>
+            <tr>
+              <td colspan="4"><i>JavaScript</i></td>
+            </tr>  
+            <tr>
+              <td></td>
+              <td>Band member info textbox</td>
+              <td>Daniel</td>
+              <td>6. nov</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Image and video focus</td>
+              <td>Henry</td>
+              <td>6. nov</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Image slideshow</td>
+              <td>Magnus</td>
+              <td>6. nov</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Menu button fading</td>
+              <td>Nils</td>
+              <td>6. nov</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <h3>Content from the client</h3>
+        <p>
+          We can fill the web pages with dummy content when developing the site, but should have some time to adapt the actual content to the site before our deadline.
+        </p>
+        
+        <table>
+          <thead>
+            <tr>
+              <th>Description</th>
+              <th>Deadline</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="2"><i>Images</i></td>
+            </tr>
+            <tr>
+              <td>Four band member pictures for the front page.</td>
+              <td>30. nov</td>
+            </tr>
+            <tr>
+              <td>A picture of the band together, for the about page.</td>
+              <td>30. nov</td>
+            </tr>
+            <tr>
+              <td>Pictures for the gallery, with thumbnails</td>
+              <td>30. nov</td>
+            </tr>
+            <tr>
+              <td>Pictures of merchandise</td>
+              <td>30. nov</td>
+            </tr>
+            <tr>
+              <td colspan="2"><i>Other media</i></td>
+            </tr>
+            <tr>
+              <td>Songs for the music page</td>
+              <td>30. nov</td>
+            </tr>
+            <tr>
+              <td>Videos for the video page.</td>
+              <td>30. nov</td>
+            </tr>
+            <tr>
+              <td>Blog posts for the blog page.</td>
+              <td>30. nov</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      
+    </div>
+  </div>
+  
+</body>
+
+</html>

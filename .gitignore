@@ -1,3 +1,5 @@
+*.esproj
+
 # Created by https://www.gitignore.io/api/macos,windows
 ### macOS ###
 *.DS_Store
@@ -47,3 +49,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+#dmlundeby
+.idea
