@@ -6,6 +6,9 @@ h1,h2,h3,h4,h5,p,a{
 a{
 	color: #DC3522;
 }
+a:hover{
+	color: #D9CB9E;
+}
 
 h1{
 	font-size: 26px;
@@ -21,18 +24,32 @@ p{
 }
 
 /* @end */
+.header{
+	display: flex;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+.header>h1,.header>img{
+	/*padding-left: 20px;*/
+	/*padding-right: 20px;*/
+	font-size: 70px;
+	margin: auto;
+}
 
 /* @group Menu-bar */
-
 .menu-bar>ul{
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	/*padding: 0;*/
 	overflow: hidden;
 	background-color: #2A2C2B;
+	/*display: flex;*/
+	/*flex-flow: row wrap;*/
 }
 .menu-bar>ul>li{
 	float: left;
+	/*margin: auto;*/
 }
 .menu-bar>ul>li>a{
 	display: block;
@@ -84,11 +101,18 @@ body,.darkBackground{
 .wrapper {
   display: flex;
   flex-flow: row wrap;
+  /*text-align: center;*/
 }
 
-.wrapper>* {
-  padding: 1px;
+/*.wrapper>* {
+  /*padding: 10px;*!/
   flex: 1 100%;
+}*/
+
+.wrapper>*{
+	/*margin: 0px;*/
+	/*padding: 0px;*/
+	width: 100%;
 }
 
 .header,.footer {
@@ -96,15 +120,21 @@ body,.darkBackground{
   color: #D9CB9E;
 }
 
+/*content{
+	/*text-align: left;*!/
+}*/
+
 .footer{
 	display: flex;
 	align-items: center;
+	flex-flow: row wrap;
 }
+
 .footer>div{
 	margin: auto;
 }
 
-@media all and (min-width:550px) {
+/*@media all and (min-width:550px) {
   .aside {
     flex: 1 auto;
   }
@@ -124,4 +154,4 @@ body,.darkBackground{
   .footer {
     order: 4;
   }
-}
+}*/
