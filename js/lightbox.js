@@ -39,4 +39,10 @@ function showImg(imgObj) {
   console.log(imgObj);
   let lightbox = document.getElementById("lightboxContent");
   lightbox.innerHTML = '<img src="'+imgObj.src+'"/>';
+  documentDiv =  document.getElementById("lightbox")
+  documentDiv.style.visibility = "visible";
+  
+  documentDiv.onclick = function(e){
+  	documentDiv.style.visibility = "hidden";	
+  }
 }
