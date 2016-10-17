@@ -12,5 +12,11 @@
 }
 #lightboxContent{
 	margin: auto;
-	max-width: 90%;
+	display: flex;
+	align-items: center;
+}
+
+#lightboxContent>img{
+	margin: auto;
+	width: 90%;
 }
