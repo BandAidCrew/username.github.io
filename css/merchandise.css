@@ -14,17 +14,37 @@ body {
 }
 
 .merch_product {
+    position: relative;
     width: 200px;
     height: 250px;
-    background-color: red;
+    background-color: lightcoral;
     text-align: center;
     margin: 10px;
     border-radius: 15px;
 }
 
 .merch_product h2 {
-    width: 80%;
-    margin: 10px auto;
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    max-height: 50px;
+    margin: 10px 10px 0px;
+}
+
+.merch_product img {
+    position: absolute;
+    max-height: 120px;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.merch_product p {
+    position: absolute;
+    bottom: 0px;
+    margin: 0px 10px 10px;
 }
 
 @media all and (max-width: 800px) {
