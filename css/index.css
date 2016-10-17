@@ -35,4 +35,5 @@
 #photoWrapper>img {
   width: 200px;
   margin: auto;
+  padding: 20px;
 }
