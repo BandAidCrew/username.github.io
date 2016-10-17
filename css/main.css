@@ -53,30 +53,28 @@ p {
   /*padding: 0;*/
   overflow: hidden;
   background-color: #2A2C2B;
-  /*display: flex;*/
-  /*flex-flow: row wrap;*/
+  display: flex;
+  flex-flow: row wrap;
 }
 
 #menu-bar>ul>li {
   float: left;
-  /*margin: auto;*/
+  margin: auto;
 }
 
 #menu-bar>ul>li>a {
   display: block;
-  text-align: center;
+  /*text-align: center;*/
   padding: 14px 16px;
   text-decoration: none;
 }
-
-
 /* @end */
 
 
 /* @group Header */
-
 .header {
   position: relative;
+  padding: 20px;
 }
 
 .header>img {
@@ -103,47 +101,55 @@ p {
   position: relative;
   right: 20%;
 }
-
-
 /* @end */
+body{
+	margin: 0;
+}
 
-body, .darkBackground {
+.darkBackground {
+  margin: 0;
+  padding: 20px;
   background: #374140;
   color: #D9CB9E;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .lightBackground {
+margin: 0;
   background: #D9CB9E;
   color: #1E1E20;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 20px;
+}
+
+.darkBackground{
+	
 }
 
 .wrapper {
   display: flex;
   flex-flow: row wrap;
-  /*text-align: center;*/
 }
 
-
-/*.wrapper>* {
-  /*padding: 10px;*!/
-  flex: 1 100%;
-}*/
-
 .wrapper>* {
-  /*margin: 0px;*/
-  /*padding: 0px;*/
   width: 100%;
+}
+
+.content{
+margin: 0;
+	/*padding: 20px;*/
+}
+
+#welcome {
+  padding: 20px;
 }
 
 .header, .footer {
   background: #2A2C2B;
   color: #D9CB9E;
 }
-
-
-/*content{
-	/*text-align: left;*!/
-}*/
 
 .footer {
   display: flex;
