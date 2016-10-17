@@ -1,5 +1,43 @@
+body {
+    min-width: 10px;
+}
+
 #merch_container {
-    width: 500px;
-    height: 1000px;
+    display: flex;
+    width: 800px;
+    min-height: 0px;
     background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.merch_product {
+    width: 200px;
+    height: 250px;
+    background-color: red;
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.merch_product h2 {
+    width: 80%;
+    margin: 10px auto;
+}
+
+@media all and (max-width: 800px) {
+    #merch_container {
+        width: 100%;
+    }
+}
+
+#merch_contact {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #efefef;
+    overflow: hidden;
 }
