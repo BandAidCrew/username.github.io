@@ -37,3 +37,13 @@
   margin: auto;
   padding: 20px;
 }
+
+#videoWrapper{
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+#videoWrapper>iframe{
+	margin: auto;
+}
