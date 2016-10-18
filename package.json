@@ -1,0 +1,23 @@
+{
+  "name": "ham-crate",
+  "version": "0.1.1",
+  "description": "Webpage promoting the rock-band Ham-Crate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BandAidCrew/Ham-Crate.git"
+  },
+  "author": "BandAidCrew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BandAidCrew/Ham-Crate/issues"
+  },
+  "homepage": "http://hamcrate.rocks",
+  "devDependencies": {
+    "eslint": "^3.8.0",
+    "eslint-config-google": "^0.6.0"
+  }
+}
