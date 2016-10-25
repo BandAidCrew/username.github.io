@@ -105,7 +105,7 @@ p {
 body{
 	margin: 0;
 }
-
+/* Use correct classes to style your div */
 .darkBackground {
   margin: 0;
   /*padding: 20px;*/
