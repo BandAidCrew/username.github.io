@@ -111,14 +111,14 @@ body{
   /*padding: 20px;*/
   background: #374140;
   color: #D9CB9E;
-  padding: 20px 80px;
+  padding: 20px 10%;
 }
 
 .lightBackground {
   margin: 0;
   background: #D9CB9E;
   color: #1E1E20;
-  padding: 20px 80px;
+  padding: 20px 10%;
 }
 
 .wrapper {
