@@ -38,8 +38,6 @@ p {
 }
 
 .header>h1, .header>img {
-  /*padding-left: 20px;*/
-  /*padding-right: 20px;*/
   font-size: 70px;
   margin: auto;
 }
@@ -48,9 +46,9 @@ p {
 /* @group Menu-bar */
 
 #menu-bar>ul {
+  padding: 20px 8%;
   list-style-type: none;
   margin: 0;
-  /*padding: 0;*/
   overflow: hidden;
   background-color: #2A2C2B;
   display: flex;
@@ -60,12 +58,11 @@ p {
 #menu-bar>ul>li {
   float: left;
   margin: auto;
+  padding: 5px;
 }
 
 #menu-bar>ul>li>a {
   display: block;
-  /*text-align: center;*/
-  padding: 14px 16px;
   text-decoration: none;
 }
 /* @end */
@@ -108,10 +105,15 @@ body{
 /* Use correct classes to style your div */
 .darkBackground {
   margin: 0;
-  /*padding: 20px;*/
   background: #374140;
   color: #D9CB9E;
   padding: 20px 10%;
+}
+.darkerBackground{
+  background: #2A2C2B;
+  margin: 0;	
+  padding: 20px 10%;
+  color: #D9CB9E;
 }
 
 .lightBackground {
