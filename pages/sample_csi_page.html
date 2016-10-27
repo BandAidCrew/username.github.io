@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!--<script type="text/javascript" src="../js/csi.min.js"></script>-->
+    <script type="text/javascript" src="/js/csi.min.js"></script>
     <script src="http://www.w3schools.com/lib/w3data.js"></script>
-    <!--<div w3-include-html="../template-head.html"></div>-->
+    <div data-include="template-head.html"></div>
+    <!--<div w3-include-html="template-head.html"></div>-->
   </head>
   <body>
     <div class=wrapper>
-      <div w3-include-html="../template-wrapper-top.html"></div>
+      <!--<div w3-include-html="../template-wrapper-top.html"></div>-->
+      <div data-include="template-wrapper-top.html"></div>
 
       <!-- Code goes here -->
+      <p class="lightBackground">
+        This is some test content.
+      </p>
 
-      <div w3-include-html="../template-wrapper-bottom.html"></div>
+      <div data-include="template-wrapper-bottom.html"></div>
+      <!--<div w3-include-html="template-wrapper-bottom.html"></div>-->
     </div>
-  <script type="text/javascript">w3IncludeHTML();</script>
+  <!--<script type="text/javascript">w3IncludeHTML();</script>-->
   </body>
 </html>
