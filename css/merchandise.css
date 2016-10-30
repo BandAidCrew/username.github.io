@@ -3,7 +3,9 @@ body {
 }
 
 #merch_container {
-    align-items: flex-start;
+    /*align-items: center;*/
+    justify-content: center;
+    overflow: hidden;
 }
 
 .merch_product {
@@ -12,7 +14,7 @@ body {
     height: 250px;
     background-color: #DC3522;
     text-align: center;
-    margin: 10px;
+    margin: 15px;
     border-radius: 15px;
 }
 
@@ -38,12 +40,6 @@ body {
     position: absolute;
     bottom: 0px;
     margin: 0px 10px 10px;
-}
-
-@media all and (max-width: 800px) {
-    #merch_container {
-        width: 100%;
-    }
 }
 
 #merch_contact {
