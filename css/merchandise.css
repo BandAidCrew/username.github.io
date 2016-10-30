@@ -3,21 +3,14 @@ body {
 }
 
 #merch_container {
-    display: flex;
-    width: 800px;
-    min-height: 0px;
-    background-color: lightgray;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-around;
-    flex-flow: row wrap;
+    align-items: flex-start;
 }
 
 .merch_product {
     position: relative;
     width: 200px;
     height: 250px;
-    background-color: lightcoral;
+    background-color: #DC3522;
     text-align: center;
     margin: 10px;
     border-radius: 15px;
@@ -54,10 +47,6 @@ body {
 }
 
 #merch_contact {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
-    background-color: #efefef;
     overflow: hidden;
 }
