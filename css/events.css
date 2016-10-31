@@ -1,7 +1,33 @@
 #events_container {
-    width: 800px;
-    min-height: 0px;
-    background-color: lightgray;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+#events_table {
+    table-layout: fixed;
+    width: 100%;
+    color: #D9CB9E;
+}
+
+#events_table tr {
+    width: 100%;
+}
+
+#events_table td:nth-child(1), th:nth-child(1) {
+    width: 30%;
+}
+
+#events_table td:nth-child(2), th:nth-child(2) {
+    width: 50%;
+}
+
+#events_table td:nth-child(3), th:nth-child(3) {
+    width: 20%;
+}
+
+#events_table th {
+    height: 50px;
+    text-align: left;
+}
+
+#events_table td {
+    height: 50px;
 }
