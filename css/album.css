@@ -3,6 +3,10 @@ img {
   height: 100% ;
 }
 
+h2 {
+  text-align: center;
+  }
+
 .row > .column {
   padding: 10px 8px;
 }
@@ -27,7 +31,7 @@ img {
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 5px;
   left: 0;
   top: 0;
   width: 100%;
