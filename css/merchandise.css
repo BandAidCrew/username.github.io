@@ -1,0 +1,48 @@
+body {
+    min-width: 10px;
+}
+
+#merch_container {
+    /*align-items: center;*/
+    justify-content: center;
+    overflow: hidden;
+}
+
+.merch_product {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    background-color: #DC3522;
+    text-align: center;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.merch_product h2 {
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    max-height: 50px;
+    margin: 10px 10px 0px;
+}
+
+.merch_product img {
+    position: absolute;
+    max-height: 120px;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.merch_product p {
+    position: absolute;
+    bottom: 0px;
+    margin: 0px 10px 10px;
+}
+
+#merch_contact {
+    text-align: center;
+    overflow: hidden;
+}

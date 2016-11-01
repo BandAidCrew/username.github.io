@@ -12,30 +12,22 @@
 
 #blogpost {
 	padding: 10px;
-	background: #D9CB9E;
 	min-height: 200px;
   position: relative;
 }
 
-#blogpost2 {
-	padding: 10px;
-	background: #374140;
-  min-height: 200px;
-  position: relative;
-}
-
-
-#blogpost > p, #blogpost2 > p {
+#blogpost > p {
+  font-size: 16px;
   max-width: 70% ;
 }
 
-#blogpost > #date, #blogpost2 > #date {
-  opacity: 0.5; 
+#blogpost > #date {
+  opacity: 0.5;
   position: absolute;
   bottom: 0px ;
 }
 
-#blogpost > img, #blogpost2 > img {
+#blogpost > img {
   max-height: 90% ;
   max-width: 27% ;
   position: absolute;
