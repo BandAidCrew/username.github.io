@@ -27,6 +27,10 @@ td{
 .img {
   width:100%;
 }
+#head_img {
+  width:100%;
+  padding:0;
+}
 .profil_img {
   width:100px;
   height:100px;
