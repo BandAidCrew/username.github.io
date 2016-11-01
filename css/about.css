@@ -10,7 +10,11 @@ tr{
 td{
   border-width:1px;
 }
+<<<<<<< HEAD
 .content_about {
+=======
+.content {
+>>>>>>> about-page
   background-color:#374140;
   color: #D9CB9E;
   padding:15px;
