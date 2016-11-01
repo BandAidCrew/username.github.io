@@ -5,54 +5,68 @@ WHEN: October 2016
 PURPOSE: an overview of products available for purchase
 -->
 
-<!-- Quickfix: -->
-<link rel="stylesheet" type="text/css" href="../css/main.css">
-<link rel="stylesheet" type="text/css" href="../css/merchandise.css" />
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="/js/csi.min.js"></script>
+    <div data-include="/templates/template-head.html"></div>
+    <link rel="stylesheet" href="/css/merchandise.css">
+</head>
+<body>
+<div class=wrapper>
+    <div data-include="/templates/template-wrapper-top.html"></div>
+    <div class="content main">
+        <!-- Code starts here -->
 
+        <div id="merch_container" class="wrapper lightBackground">
+            <div class="merch_product">
+                <h2>Ham from Stabburet</h2>
+                <img src="../img/logo.png" alt="Ham crate with ham from Stabburet">
+                <p>Exclusive signed Ham Crate with real ham from the ham producer Stabburet</p>
+            </div>
+            <div class="merch_product">
+                <h2>Poster</h2>
+            </div>
+            <div class="merch_product">
+                <h2>Vinyl</h2>
+            </div>
+            <div class="merch_product">
+                <h2>HamShoes&trade;</h2>
+            </div>
+            <div class="merch_product">
+                <h2>Signed guitar</h2>
+            </div>
+            <div class="merch_product">
+                <img src="../img/merch/Buttons.png" alt="Ham Crate buttons">
+                <h2>Ham Crate buttons</h2>
+            </div>
+            <div class="merch_product">
+                <img src="../img/merch/iPhone-case.png" alt="Ham Crate iPhone case">
+                <h2>Ham Crate iPhone case</h2>
+            </div>
+            <div class="merch_product">
+                <img src="../img/merch/Mug.png" alt="Ham Crate Full Color Mug">
+                <h2>Ham Crate Full Color Mug</h2>
+            </div>
+            <div class="merch_product">
+                <img src="../img/merch/Sticker.png" alt="Ham Crate stickers">
+                <h2>Stickers</h2>
+            </div>
+            <div class="merch_product">
+                <img src="../img/merch/T-Shirt.png" alt="Ham Crate T-Shirt">
+                <h2>T-Shirts</h2>
+            </div>
+        </div>
 
+        <div id="merch_contact" class = "wrapper darkBackground">
+            <p>We have some really cool stuff for you to buy. Please come and talk to us
+                after a concert, and we will happily sell you our stuff.</p>
+            <p><em>Products can also be requested by email: <a href="mailto:frank@hamcrate.rocks">frank@hamcrate.rocks</a></em></p>
+        </div>
 
-<div id="merch_container" class="wrapper lightBackground">
-    <div class="merch_product">
-        <h2>Ham from Stabburet</h2>
-        <img src="../img/logo.png" alt="Ham crate with ham from Stabburet">
-        <p>Exclusive signed Ham Crate with real ham from the ham producer Stabburet</p>
+        <!-- Code ends here -->
     </div>
-    <div class="merch_product">
-        <h2>Poster</h2>
-    </div>
-    <div class="merch_product">
-        <h2>Vinyl</h2>
-    </div>
-    <div class="merch_product">
-        <h2>HamShoes&trade;</h2>
-    </div>
-    <div class="merch_product">
-        <h2>Signed guitar</h2>
-    </div>
-    <div class="merch_product">
-        <img src="../img/merch/Buttons.png" alt="Ham Crate buttons">
-        <h2>Ham Crate buttons</h2>
-    </div>
-    <div class="merch_product">
-        <img src="../img/merch/iPhone-case.png" alt="Ham Crate iPhone case">
-        <h2>Ham Crate iPhone case</h2>
-    </div>
-    <div class="merch_product">
-        <img src="../img/merch/Mug.png" alt="Ham Crate Full Color Mug">
-        <h2>Ham Crate Full Color Mug</h2>
-    </div>
-    <div class="merch_product">
-        <img src="../img/merch/Sticker.png" alt="Ham Crate stickers">
-        <h2>Stickers</h2>
-    </div>
-    <div class="merch_product">
-        <img src="../img/merch/T-Shirt.png" alt="Ham Crate T-Shirt">
-        <h2>T-Shirts</h2>
-    </div>
+    <div data-include="/templates/template-wrapper-bottom.html"></div>
 </div>
-
-<div id="merch_contact" class = "wrapper darkBackground">
-    <p>We have some really cool stuff for you to buy. Please come and talk to us
-        after a concert, and we will happily sell you our stuff.</p>
-    <p><em>Products can also be requested by email: <a href="mailto:frank@hamcrate.rocks">frank@hamcrate.rocks</a></em></p>
-</div>
+</body>
+</html>
