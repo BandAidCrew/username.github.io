@@ -2,7 +2,8 @@
 /* global document */
 
 // Wait for the browser to render
-window.onload = function() {
+window.addEventListener("load", function() {
+  console.log('debug');
 // Add a hidden div over the screen.
 // This will be for the lightbox content at a later stage
   let lightbox = document.createElement("div");
@@ -29,7 +30,7 @@ window.onload = function() {
       };
     }
   }
-};
+});
 
 /**
  * Shows a given img in the lightbox
