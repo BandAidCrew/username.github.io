@@ -9,10 +9,6 @@
 
 #events_table tr {
     width: 100%;
-    border: solid #D9CB9E;
-    border-bottom: 10px solid #D9CB9E;
-    border-top: 10px solid #D9CB9E;
-    border-collapse: collapse;
 }
 
 #events_table td:nth-child(1), th:nth-child(1) {
