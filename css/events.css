@@ -26,8 +26,10 @@
 #events_table th {
     height: 50px;
     text-align: left;
+    font-size: larger;
 }
 
 #events_table td {
     height: 50px;
+    font-size: large;
 }
