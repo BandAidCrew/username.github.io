@@ -48,3 +48,8 @@ body {
     text-align: center;
     overflow: hidden;
 }
+
+#merch_contact > p {
+    font-size: large;
+    margin: 5px 0px;
+}
