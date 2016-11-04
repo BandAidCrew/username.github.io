@@ -48,10 +48,12 @@
 	margin: auto;
 }
 
-#textbox {
-  width: 70%;
+.textbox {
+  width: 160%;
+  margin-left: -33%;
   background-color: #DC3522;
   color: #D9CB9E;
   padding: 5px;
   text-align: center;
+  display: none;
 }
