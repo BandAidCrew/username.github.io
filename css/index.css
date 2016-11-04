@@ -47,3 +47,11 @@
 #videoWrapper>iframe{
 	margin: auto;
 }
+
+#textbox {
+  width: 70%;
+  background-color: #DC3522;
+  color: #D9CB9E;
+  padding: 5px;
+  text-align: center;
+}
