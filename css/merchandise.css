@@ -30,7 +30,7 @@ body {
 
 .merch_product img {
     position: absolute;
-    max-height: 120px;
+    max-height: 150px;
     top: 60px;
     left: 0px;
     right: 0px;
@@ -38,10 +38,13 @@ body {
     margin-right: auto;
 }
 
-.merch_product p {
+.merch_product > p {
     position: absolute;
     bottom: 0px;
-    margin: 0px 10px 10px;
+    left: 0px;
+    right: 0px;
+    margin: 5px auto 10px;
+    font-size: large;
 }
 
 #merch_contact {
@@ -52,4 +55,18 @@ body {
 #merch_contact > p {
     font-size: large;
     margin: 5px 0px;
+}
+
+div[alt]:hover:after {
+    content: attr(alt);
+    padding: 4px 8px;
+    width: 120px;
+    background-color: #2A2C2B;
+    color: #D9CB9E;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: -30px;
 }
