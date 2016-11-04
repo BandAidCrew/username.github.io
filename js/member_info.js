@@ -32,14 +32,14 @@ window.addEventListener("load", function() {
 
         })
     }
+
+    function addTextbox(box, text) {
+        let textbox = document.createElement("div");
+        textbox.id = "textbox";
+        textbox.classList.add(box.id);
+        textbox.innerHTML = text;
+        members.appendChild(textbox);
+    }
+
 });
 
-function addTextbox(box, text) {
-    textbox = document.createElement("textbox");
-    textbox.id = "textbox";
-    textbox.classList.add(box.id);
-    textbox.style.width = members.style.width;
-    textbox.style.backgroundColor = "red";
-    textbox.innerHTML = text;
-    members.appendChild(textbox);
-}
