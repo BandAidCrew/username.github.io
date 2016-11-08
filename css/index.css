@@ -1,12 +1,12 @@
 #memberContainer {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: row wrap;
 }
 
 #memberContainer>div {
   padding: 20px;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -46,4 +46,16 @@
 
 #videoWrapper>iframe{
 	margin: auto;
+}
+
+.textbox {
+  width: 190px;
+  margin-left: -25px;
+  margin-right: -25px;
+  background-color: #DC3522;
+  color: #D9CB9E;
+  padding: 5px;
+  text-align: center;
+  display: none;
+  border-radius: 7px;
 }
