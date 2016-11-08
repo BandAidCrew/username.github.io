@@ -30,6 +30,7 @@
   right: 0;
   top: 0;
   bottom: 0;
+  cursor: pointer;
 }
 
 @media all and (min-width:550px) {

@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <title>Ham-Crate</title>
   <link rel="stylesheet" href="../css/main.css" media="screen" title="no title">
-  <link rel="stylesheet" href="../css/index.css" />
   <link rel="stylesheet" href="../css/album.css" />
 
   <!--[if lt IE 9]>
@@ -48,38 +47,38 @@
       </ul>
     </nav>
 
-    <div class="contentmain" class="lightBackground">
+    <div class="contentmain">
       <div id="album" class="lightBackground">
         <h1>Photos from our gig @ Rockefeller</h1>
 
-        <div class="row">
-          <div class="column">
-            <img src="../img/stock/6.jpeg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+
+        <div id="imgContainer">
+            <img src="../img/stock/6.jpeg" alt="" onclick="openModal();currentSlide(1)" >
+
+
+            <img src="../img/stock/7.jpeg" alt="" onclick="openModal();currentSlide(2)" >
+
+
+            <img src="../img/stock/8.jpeg" alt="" onclick="openModal();currentSlide(3)" >
+
+
+            <img src="../img/stock/9.jpeg" alt="" onclick="openModal();currentSlide(4)" >
           </div>
-          <div class="column">
-            <img src="../img/stock/7.jpeg" onclick="openModal();currentSlide(2)" class="hover-shadow">
-          </div>
-          <div class="column">
-            <img src="../img/stock/8.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow">
-          </div>
-          <div class="column">
-            <img src="../img/stock/9.jpeg" onclick="openModal();currentSlide(4)" class="hover-shadow">
-          </div>
-        </div>
+
 
         <div id="myModal" class="modal">
          <div class="modal-content">
            <div class="mySlides">
-               <img src="../img/stock/6.jpeg" onclick="closeModal()">
+               <img src="../img/stock/6.jpeg" alt="" onclick="closeModal()">
            </div>
            <div class="mySlides">
-               <img src="../img/stock/7.jpeg" onclick="closeModal()">
+               <img src="../img/stock/7.jpeg" alt="" onclick="closeModal()">
            </div>
            <div class="mySlides">
-               <img src="../img/stock/8.jpeg" onclick="closeModal()">
+               <img src="../img/stock/8.jpeg" alt="" onclick="closeModal()">
            </div>
            <div class="mySlides">
-               <img src="../img/stock/9.jpeg" onclick="closeModal()">
+               <img src="../img/stock/9.jpeg" alt="" onclick="closeModal()">
            </div>
 
            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -101,6 +100,7 @@
       </div>
     </footer>
   </div>
+</div>
 </body>
 
 </html>

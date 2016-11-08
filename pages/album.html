@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <title>Ham-Crate</title>
   <link rel="stylesheet" href="../css/main.css" media="screen" title="no title">
-  <link rel="stylesheet" href="../css/index.css" />
   <link rel="stylesheet" href="../css/album.css" />
 
   <!--[if lt IE 9]>
@@ -23,9 +21,7 @@
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
-
   <script src="../js/album.js"></script>
-
 </head>
 
 <body>
@@ -48,56 +44,44 @@
       </ul>
     </nav>
 
-    <div class="contentmain" class="lightBackground">
+    <div class="contentmain">
       <div id="album" class="lightBackground">
         <h1>Photos from our gig @ Carnegie Hall</h1>
 
-        <div class="row">
-          <div class="column">
-            <img src="../img/stock/1.jpeg" onclick="openModal();currentSlide(1)" class="hover-shadow">
-          </div>
-          <div class="column">
-            <img src="../img/stock/2.jpeg" onclick="openModal();currentSlide(2)" class="hover-shadow">
-          </div>
-          <div class="column">
-            <img src="../img/stock/3.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow">
-          </div>
-          <div class="column">
-            <img src="../img/stock/4.jpeg" onclick="openModal();currentSlide(4)" class="hover-shadow">
-          </div>
-          <div class="column">
-            <img src="../img/stock/5.jpeg" onclick="openModal();currentSlide(5)" class="hover-shadow">
-          </div>
-          <div class="column">
-            <img src="../img/stock/6.jpeg" onclick="openModal();currentSlide(6)" class="hover-shadow">
-          </div>
+        <div id="imgContainer">
+            <img src="../img/stock/1.jpeg" alt="" onclick="openModal();currentSlide(1)" >
+            <img src="../img/stock/2.jpeg" alt="" onclick="openModal();currentSlide(2)" >
+            <img src="../img/stock/3.jpeg" alt="" onclick="openModal();currentSlide(3)" >
+            <img src="../img/stock/4.jpeg" alt="" onclick="openModal();currentSlide(4)" >
+            <img src="../img/stock/5.jpeg" alt="" onclick="openModal();currentSlide(5)" >
+            <img src="../img/stock/6.jpeg" alt="" onclick="openModal();currentSlide(6)" >
         </div>
 
         <div id="myModal" class="modal">
          <div class="modal-content">
 
            <div class="mySlides">
-               <img src="../img/stock/1.jpeg" onclick="closeModal()">
+               <img src="../img/stock/1.jpeg" alt="" onclick="closeModal()">
            </div>
 
            <div class="mySlides">
-               <img src="../img/stock/2.jpeg" onclick="closeModal()">
+               <img src="../img/stock/2.jpeg" alt="" onclick="closeModal()">
            </div>
 
            <div class="mySlides">
-               <img src="../img/stock/3.jpeg" onclick="closeModal()">
+               <img src="../img/stock/3.jpeg" alt="" onclick="closeModal()">
            </div>
 
            <div class="mySlides">
-               <img src="../img/stock/4.jpeg" onclick="closeModal()">
+               <img src="../img/stock/4.jpeg" alt="" onclick="closeModal()">
            </div>
 
            <div class="mySlides">
-               <img src="../img/stock/5.jpeg" onclick="closeModal()">
+               <img src="../img/stock/5.jpeg" alt="" onclick="closeModal()">
            </div>
 
            <div class="mySlides">
-               <img src="../img/stock/6.jpeg" onclick="closeModal()">
+               <img src="../img/stock/6.jpeg" alt="" onclick="closeModal()">
            </div>
 
            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -119,6 +103,7 @@
       </div>
     </footer>
   </div>
+</div>
 </body>
 
 </html>
