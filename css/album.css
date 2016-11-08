@@ -3,16 +3,8 @@ img {
   height: 100% ;
 }
 
-h2 {
-  text-align: center;
-  }
-
 .row > .column {
   padding: 10px 8px;
-}
-
-.contentmain {
-    background: #D9CB9E;
 }
 
 .row:after {
@@ -84,4 +76,21 @@ h2 {
 .next:hover {
   color: #DC3522 ;
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media all and (min-width:550px) {
+  .aside {
+    flex: 1 auto;
+  }
+}
+
+@media all and (min-width:800px) {
+  .blog {
+    flex: 3 0px;
+    order: 1;
+  }
+
+  .footer {
+    order: 2;
+  }
 }
