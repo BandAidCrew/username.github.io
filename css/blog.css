@@ -1,3 +1,6 @@
+#menu-bar > ul > li:nth-child(8){
+  background-color: yellow;
+}
 
 .blog {
   text-align: left;

@@ -1,3 +1,7 @@
+#menu-bar > ul > li:nth-child(7){
+  background-color: yellow;
+}
+
 body {
     min-width: 10px;
 }

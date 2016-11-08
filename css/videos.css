@@ -1,3 +1,7 @@
+#menu-bar > ul > li:nth-child(5){
+  background-color: yellow;
+}
+
 #videoWrapper {
   padding-top: 30px ;
 }

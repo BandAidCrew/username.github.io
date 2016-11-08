@@ -111,7 +111,7 @@ body{
 }
 .darkerBackground{
   background: #2A2C2B;
-  margin: 0;	
+  margin: 0;
   padding: 20px 10%;
   color: #D9CB9E;
 }
@@ -140,6 +140,11 @@ margin: 0;
 .header, .footer {
   background: #2A2C2B;
   color: #D9CB9E;
+}
+
+.highlight {
+  background-color: yellow;
+
 }
 
 .footer {

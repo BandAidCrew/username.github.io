@@ -1,3 +1,7 @@
+#menu-bar > ul > li:nth-child(1){
+  background-color: yellow;
+}
+
 #memberContainer {
   display: flex;
   align-items: flex-start;
