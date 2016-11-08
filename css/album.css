@@ -1,21 +1,12 @@
-img {
-  width: 100% ;
-  height: 100% ;
+#imgContainer{
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
 }
-
-.row > .column {
-  padding: 10px 8px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column {
-  float: left;
-  width: 20%;
+#imgContainer>img{
+  margin: auto;
+  width: 300px;
+  padding: 10px;
 }
 
 /* The Modal (background) */
@@ -76,21 +67,4 @@ img {
 .next:hover {
   color: #DC3522 ;
   background-color: rgba(0, 0, 0, 0.8);
-}
-
-@media all and (min-width:550px) {
-  .aside {
-    flex: 1 auto;
-  }
-}
-
-@media all and (min-width:800px) {
-  .blog {
-    flex: 3 0px;
-    order: 1;
-  }
-
-  .footer {
-    order: 2;
-  }
 }
