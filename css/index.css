@@ -60,3 +60,11 @@
   display: none;
   border-radius: 7px;
 }
+/*Remove underline from headers with links*/
+h1>a{
+  text-decoration: none;
+}
+/*align text to the right*/
+.align-right{
+  text-align: right;
+}
