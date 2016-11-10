@@ -1,3 +1,22 @@
+#memberContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+#memberContainer>div {
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+#memberContainer>div>img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
 table{
   border-style:solid;
   border-width:1px;
