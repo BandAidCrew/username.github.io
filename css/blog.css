@@ -4,14 +4,7 @@
   background: #D9CB9E;
 }
 
-.archive {
-  background: #2A2C2B;
-  width: 15%;
-  padding: 10px;
-}
-
 #blogpost {
-	padding: 10px;
 	min-height: 200px;
   position: relative;
 }
@@ -31,8 +24,13 @@
   max-height: 90% ;
   max-width: 27% ;
   position: absolute;
-  right: 1% ;
-  top: 5% ;
+  padding-right: inherit;
+  margin-top: auto;
+  margin-bottom: auto;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
 }
 
 @media all and (min-width:550px) {

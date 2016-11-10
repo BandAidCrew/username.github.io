@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type="text/javascript" src="/js/csi.min.js"></script>
+  <!-- Header lines specific to the page start here -->
+  <title>Ham Crate - Album</title>
+  <link rel="stylesheet" href="../css/album.css" />
+  <script src="/js/album.js"></script>
+  <!-- Header lines specific to the page end here -->
+  <div data-include="/templates/template-head.html"></div>
+
+  <meta charset="utf-8">
+  <title>Ham-Crate</title>
+  <link rel="stylesheet" href="../css/main.css" media="screen" title="no title">
+  <link rel="stylesheet" href="../css/album.css" />
+
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <div data-include="/templates/template-wrapper-top.html"></div>
+    <div class="content main">
+    <!-- Code starts here -->
+
+    <div id="album" class="lightBackground">
+      <h1>Photos from our gig @ Rockefeller</h1>
+
+
+      <div id="imgContainer">
+          <img src="../img/stock/6.jpeg" alt="" onclick="openModal();currentSlide(1)" >
+
+
+          <img src="../img/stock/7.jpeg" alt="" onclick="openModal();currentSlide(2)" >
+
+
+          <img src="../img/stock/8.jpeg" alt="" onclick="openModal();currentSlide(3)" >
+
+
+          <img src="../img/stock/9.jpeg" alt="" onclick="openModal();currentSlide(4)" >
+        </div>
+
+
+      <div id="myModal" class="modal">
+       <div class="modal-content">
+         <div class="mySlides">
+             <img src="../img/stock/6.jpeg" alt="" onclick="closeModal()">
+         </div>
+         <div class="mySlides">
+             <img src="../img/stock/7.jpeg" alt="" onclick="closeModal()">
+         </div>
+         <div class="mySlides">
+             <img src="../img/stock/8.jpeg" alt="" onclick="closeModal()">
+         </div>
+         <div class="mySlides">
+             <img src="../img/stock/9.jpeg" alt="" onclick="closeModal()">
+         </div>
+
+         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+       </div>
+      </div>
+    </div>
+    <!-- Code ends here -->
+
+    </div>
+    <div data-include="/templates/template-wrapper-bottom.html"></div>
+  </div>
+</body>
+
+</html>

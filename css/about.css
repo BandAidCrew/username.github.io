@@ -10,12 +10,12 @@ tr{
 td{
   border-width:1px;
 }
-/*.content {
+.content_about {
   background-color:#374140;
   color: #D9CB9E;
   padding:15px;
   width: calc(100% - 20%);
-}*/
+}
 
 .profile_content {
   width:25%;
@@ -26,6 +26,10 @@ td{
 
 .img {
   width:100%;
+}
+#head_img {
+  width:100%;
+  padding:0;
 }
 .profil_img {
   width:100px;
