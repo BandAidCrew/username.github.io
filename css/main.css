@@ -45,6 +45,10 @@ p {
 
 /* @group Menu-bar */
 
+#menu-bar {
+  z-index: 10;
+}
+
 #menu-bar>ul {
   padding: 20px 8%;
   list-style-type: none;
