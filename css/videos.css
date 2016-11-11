@@ -1,3 +1,7 @@
+#videoWrapper{
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
 #menu-bar > ul > li:nth-child(5){
   background-color: #374140;
   padding:30px;
@@ -8,6 +12,10 @@
   padding-bottom:0;
 }
 
-#videoWrapper {
-  padding-top: 30px ;
+}
+
+#videoWrapper>iframe{
+	margin: auto;
+  padding: 20px;
+  border: none;
 }

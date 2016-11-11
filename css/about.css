@@ -1,3 +1,4 @@
+
 #menu-bar > ul > li:nth-child(2){
   background-color: #374140;
   padding:30px;
@@ -13,7 +14,10 @@ table{
   border-width:1px;
   border-collapse:collapse;
   width: 100%;
-}
+#memberContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
 tr{
   border-width:1px;
 }
@@ -25,25 +29,16 @@ td{
   color: #D9CB9E;
   width: calc(100% - 20%);
 }
-
-.profile_content {
-  width:25%;
-  padding:10px;
-  background-color:#D9CB9E;
-  color: #1E1E20;
 }
 
-.img {
-  width:100%;
+#memberContainer>div>img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
 }
 #head_img {
   width:100%;
   padding:0;
-}
-.profil_img {
-  width:100px;
-  height:100px;
-  padding:10px
 }
 
 .profiles {

@@ -3,7 +3,7 @@
 
 // Wait for the browser to render
 window.addEventListener("load", function() {
-  console.log('debug');
+  //console.log('debug');
 // Add a hidden div over the screen.
 // This will be for the lightbox content at a later stage
   let lightbox = document.createElement("div");
@@ -23,7 +23,7 @@ window.addEventListener("load", function() {
 // iterate over the photos and add onclick property to each element
   for (let photo in photos) {
     if (photos.hasOwnProperty(photo)) {
-      console.log("tagged: ", photo);
+      //console.log("tagged: ", photo);
       photos[photo].id = "img " + photo;
       photos[photo].onclick = function(e) {
         showImg(this);
@@ -42,7 +42,7 @@ window.addEventListener("load", function() {
  */
 function showImg(imgObj) {
   // find img src and add img to lightbox
-  console.log(imgObj);
+  //console.log(imgObj);
   let lightbox = document.getElementById("lightboxContent");
   lightbox.innerHTML = '<img src="' + imgObj.src + '"/>';
   let documentDiv = document.getElementById("lightbox");
