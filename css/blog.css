@@ -42,22 +42,3 @@ PURPOSE:  styling document for the blog page
   bottom: 0;
   cursor: pointer;
 }
-
-@media all and (min-width:550px) {
-  .aside {
-    flex: 1 auto;
-  }
-}
-
-@media all and (min-width:800px) {
-  .blog {
-    flex: 3 0px;
-    order: 1;
-  }
-  .archive {
-    order: 2;
-  }
-  .footer {
-    order: 3;
-  }
-}

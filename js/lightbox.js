@@ -1,9 +1,15 @@
+/*
+FILE NAME: lightbox.js
+WRITTEN BY:  Henry S. Sjøen
+WHEN:  November 2016
+PURPOSE:  Makes images with class lightbox clickable and presents the image fullscreen.
+*/
+
 /* global window */
 /* global document */
 
 // Wait for the browser to render
 window.addEventListener("load", function() {
-  //console.log('debug');
 // Add a hidden div over the screen.
 // This will be for the lightbox content at a later stage
   let lightbox = document.createElement("div");
@@ -23,7 +29,7 @@ window.addEventListener("load", function() {
 // iterate over the photos and add onclick property to each element
   for (let photo in photos) {
     if (photos.hasOwnProperty(photo)) {
-      //console.log("tagged: ", photo);
+      // console.log("tagged: ", photo);
       photos[photo].id = "img " + photo;
       photos[photo].onclick = function(e) {
         showImg(this);
@@ -42,12 +48,13 @@ window.addEventListener("load", function() {
  */
 function showImg(imgObj) {
   // find img src and add img to lightbox
-  //console.log(imgObj);
+  // console.log(imgObj);
   let lightbox = document.getElementById("lightboxContent");
   lightbox.innerHTML = '<img src="' + imgObj.src + '"/>';
   let documentDiv = document.getElementById("lightbox");
   documentDiv.style.visibility = "visible";
 
+  // Hide the lightbox when clicked
   documentDiv.onclick = function(e) {
     documentDiv.style.visibility = "hidden";
   };
