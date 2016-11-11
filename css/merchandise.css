@@ -1,5 +1,5 @@
-body {
-    min-width: 10px;
+#menu-bar > ul > li:nth-child(7){
+  background-color: #D9CB9E;
 }
 
 #merch_container {
