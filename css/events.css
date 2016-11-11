@@ -1,4 +1,5 @@
-#events_container {
+#menu-bar > ul > li:nth-child(3){
+  background-color: #374140;
 }
 
 #events_table {
