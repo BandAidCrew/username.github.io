@@ -1,14 +1,5 @@
 #menu-bar > ul > li:nth-child(3){
   background-color: #374140;
-  padding:30px;
-}
-
-#menu-bar > ul{
-  padding:30px;
-  padding-bottom:0;
-}
-
-#events_container {
 }
 
 #events_table {

@@ -1,3 +1,6 @@
+#menu-bar > ul > li:nth-child(5){
+  background-color: #374140;
+}
 #videoWrapper{
   display: flex;
   align-items: center;
@@ -10,8 +13,6 @@
 #menu-bar > ul{
   padding:30px;
   padding-bottom:0;
-}
-
 }
 
 #videoWrapper>iframe{

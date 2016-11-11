@@ -53,6 +53,7 @@ p {
   background-color: #2A2C2B;
   display: flex;
   flex-flow: row wrap;
+  padding: 0;
 }
 
 #menu-bar>ul>li {

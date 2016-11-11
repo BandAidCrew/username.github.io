@@ -1,9 +1,5 @@
 #menu-bar > ul > li:nth-child(7){
-  background-color: yellow;
-}
-
-body {
-    min-width: 10px;
+  background-color: #D9CB9E;
 }
 
 #merch_container {
