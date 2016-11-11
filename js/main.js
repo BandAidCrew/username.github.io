@@ -2,9 +2,9 @@
 window.addEventListener('scroll', function() {
     let menu_bar = document.getElementById('menu-bar');
     let menu_bar_replacement = document.getElementById('menu-bar-replacement');
-    menu_bar_replacement.style.height = "68px";
+    menu_bar_replacement.style.height = window.getComputedStyle(menu_bar).getPropertyValue("height");
+
     let y_pos = window.pageYOffset;
-    console.log(y_pos);
     if (y_pos > 240) {
         menu_bar.style.position = "fixed";
         menu_bar_replacement.style.display = "block";
