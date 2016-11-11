@@ -46,7 +46,7 @@ p {
 /* @group Menu-bar */
 
 #menu-bar {
-  z-index: 10;
+  z-index: 2;
 }
 
 #menu-bar>ul {
