@@ -5,7 +5,10 @@ window.addEventListener('scroll', function() {
     menu_bar_replacement.style.height = window.getComputedStyle(menu_bar).getPropertyValue("height");
 
     let y_pos = window.pageYOffset;
-    if (y_pos > 240) {
+    let limit = window.getComputedStyle(document.getElementsByClassName('header')[0]).getPropertyValue("height");
+    console.log(limit);
+
+    if (y_pos > limit) {
         menu_bar.style.position = "fixed";
         menu_bar_replacement.style.display = "block";
     }
