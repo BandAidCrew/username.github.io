@@ -1,11 +1,19 @@
+/*
+FILE NAME: video.css
+WRITTEN BY:  Magnus Nesje Vatne
+WHEN:  November 2016
+PURPOSE:  styling document for the video page
+*/
+
 #menu-bar > ul > li:nth-child(5){
   background-color: #374140;
 }
+
 #videoWrapper{
   display: flex;
   align-items: center;
   flex-flow: row wrap;
-#menu-bar > ul > li:nth-child(5){
+  #menu-bar > ul > li:nth-child(5){
   background-color: #374140;
   padding:30px;
 }

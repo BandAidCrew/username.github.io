@@ -1,3 +1,10 @@
+/*
+FILE NAME: blog.css
+WRITTEN BY:  Magnus Nesje Vatne
+WHEN:  November 2016
+PURPOSE:  styling document for the blog page
+*/
+
 #menu-bar > ul > li:nth-child(8){
   background-color: #D9CB9E;
 }

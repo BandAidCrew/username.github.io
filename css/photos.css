@@ -1,3 +1,10 @@
+/*
+FILE NAME: photos.css
+WRITTEN BY:  Magnus Nesje Vatne
+WHEN:  November 2016
+PURPOSE:  styling document for the photo page
+*/
+
 #menu-bar > ul > li:nth-child(6){
   background-color: #374140;
 }

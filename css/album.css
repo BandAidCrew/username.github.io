@@ -1,3 +1,10 @@
+/*
+FILE NAME: album.css
+WRITTEN BY:  Magnus Nesje Vatne
+WHEN:  November 2016
+PURPOSE:  styling document for the album pages
+*/
+
 #menu-bar > ul > li:nth-child(6){
   background-color: #374140;
 }
