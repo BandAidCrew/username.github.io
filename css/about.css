@@ -12,6 +12,7 @@
   padding: 20px;
   margin: 0 auto;
   text-align: center;
+  cursor: pointer;
 }
 
 #memberContainer>div>img {
@@ -20,43 +21,14 @@
   border-radius: 100%;
 }
 
-#eventWrapper {
-  display: flex;
-  align-items: center;
-  flex-flow: row wrap;
+#head_img{
+    width: 100%;
 }
-
-#eventWrapper>div {
-  margin: auto;
-}
-
-#photoWrapper {
-  display: flex;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-#photoWrapper>img {
-  width: 200px;
-  margin: auto;
-  padding: 20px;
-}
-
-#videoWrapper{
-  display: flex;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-#videoWrapper>iframe{
-	margin: auto;
-}
-
 .textbox {
   width: 190px;
   margin-left: -25px;
   margin-right: -25px;
-  background-color: #DC3522;
+  background-color: #1E1E20;
   color: #D9CB9E;
   padding: 5px;
   text-align: center;
