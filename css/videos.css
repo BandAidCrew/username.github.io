@@ -1,5 +1,4 @@
 #videoWrapper{
-  padding-top: 30px ;
   display: flex;
   align-items: center;
   flex-flow: row wrap;
@@ -7,4 +6,6 @@
 
 #videoWrapper>iframe{
 	margin: auto;
+  padding: 20px;
+  border: none;
 }
