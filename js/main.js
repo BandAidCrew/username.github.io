@@ -3,10 +3,10 @@ window.addEventListener('scroll', function() {
     let menu_bar = document.getElementById('menu-bar');
     let menu_bar_replacement = document.getElementById('menu-bar-replacement');
     menu_bar_replacement.style.height = window.getComputedStyle(menu_bar).getPropertyValue("height");
+    menu_bar.style.top = "0";
 
     let y_pos = window.pageYOffset;
-    let limit = window.getComputedStyle(document.getElementsByClassName('header')[0]).getPropertyValue("height");
-    console.log(limit);
+    let limit = document.getElementsByClassName('header')[0].offsetHeight;
 
     if (y_pos > limit) {
         menu_bar.style.position = "fixed";
