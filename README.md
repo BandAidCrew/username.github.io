@@ -1,4 +1,6 @@
 # Readme
+Website for the band Ham Crate.
+Hosted on: http://hamcrate.rocks
 ## About
 Welcome to the promotion-website for the talented up-and-coming band "Ham-Crate".
 The webpage is made by the team "BandAidCrew" consisting of:
