@@ -8,3 +8,11 @@ PURPOSE:  styling document for the music page
 #menu-bar > ul > li:nth-child(4){
   background-color: #374140;
 }
+
+.musicWrapper{
+  display: flex;
+  flex-flow: wrap;
+}
+.musicWrapper>div{
+  margin: auto;
+}

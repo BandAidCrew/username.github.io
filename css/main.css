@@ -8,7 +8,7 @@ PURPOSE:  styling document to be available and used in all pages.
 /* @group Text */
 
 h1, h2, h3, h4, h5, p, a {
-  font-family: Helvetica;
+  font-family: Helvetica, Arial,sans-serif;
 }
 
 a {
@@ -34,7 +34,6 @@ h3 {
 p {
   font-size: 14px;
 }
-
 
 /* @end */
 
@@ -113,6 +112,7 @@ p {
 /* @end */
 body{
 	margin: 0;
+  background-color: #2A2C2B;
 }
 /* Use correct classes to style your div */
 .darkBackground {
@@ -152,11 +152,6 @@ margin: 0;
 .header, .footer {
   background: #2A2C2B;
   color: #D9CB9E;
-}
-
-.highlight {
-  background-color: yellow;
-
 }
 
 .footer {
