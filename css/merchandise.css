@@ -63,17 +63,3 @@ PURPOSE:  Supplies available Ham Crate products, with links.
     font-size: large;
     margin: 5px 0px;
 }
-
-div[alt]:hover:after {
-    content: attr(alt);
-    padding: 4px 8px;
-    width: 120px;
-    background-color: #2A2C2B;
-    color: #D9CB9E;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    bottom: -30px;
-}

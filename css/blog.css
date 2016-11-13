@@ -14,23 +14,23 @@ PURPOSE:  styling document for the blog page
   background: #D9CB9E;
 }
 
-#blogpost {
-	min-height: 200px;
+.blogpost {
+  min-height: 200px;
   position: relative;
 }
 
-#blogpost > p {
+.blogpost > p {
   font-size: 16px;
   max-width: 70% ;
 }
 
-#blogpost > #date {
+.blogpost > .date {
   opacity: 0.5;
   position: absolute;
   bottom: 0px ;
 }
 
-#blogpost > img {
+.blogpost > img {
   max-height: 90% ;
   max-width: 27% ;
   position: absolute;
