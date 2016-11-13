@@ -1,6 +1,6 @@
 /*
  FILE NAME: member_info.js
- WRITTEN BY: Daniel Martin Lundeby
+ WRITTEN BY: Daniel Lundeby
  WHEN:  November 2016
  PURPOSE:  When the band member circle is clicked on the index page, a textbox with more information appears.
  */
