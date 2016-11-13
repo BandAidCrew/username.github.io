@@ -32,13 +32,13 @@ h3:hover, a:hover {
   flex-flow: row wrap;
 }
 
-#albumContainer>div {
+#albumContainer div {
   padding: 20px;
   margin: auto;
   text-align: center;
 }
 
-#albumContainer>div>img {
+#albumContainer div img {
   width: 150px;
   height: 150px;
   border-radius: 100%;
