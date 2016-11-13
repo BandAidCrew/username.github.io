@@ -1,3 +1,10 @@
+/*
+FILE NAME: lightbox.css
+WRITTEN BY:  Magnus Nesje Vatne
+WHEN:  November 2016
+PURPOSE:  styling document for the video page
+*/
+
 #lightbox{
 	visibility: hidden;
 	width: 100%;

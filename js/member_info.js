@@ -1,3 +1,10 @@
+/*
+ FILE NAME: member_info.js
+ WRITTEN BY: Daniel Martin Lundeby
+ WHEN:  November 2016
+ PURPOSE:  When the band member circle is clicked on the index page, a textbox with more information appears.
+ */
+
 window.addEventListener("load", function() {
 
     let boxes = [];

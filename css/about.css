@@ -1,3 +1,10 @@
+/*
+FILE NAME: about.css
+WRITTEN BY:  Nils Ulvund
+WHEN:  November 2016
+PURPOSE:  styling document for the about page
+*/
+
 #menu-bar > ul > li:nth-child(2){
   background-color: #374140;
 }

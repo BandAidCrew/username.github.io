@@ -1,3 +1,10 @@
+/*
+FILE NAME: video.css
+WRITTEN BY:  Daniel Martin Lundeby
+WHEN:  November 2016
+PURPOSE:  styling document for the video page
+*/
+
 #menu-bar > ul > li:nth-child(3){
   background-color: #374140;
 }

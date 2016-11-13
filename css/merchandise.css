@@ -1,3 +1,10 @@
+/*
+FILE NAME: merchandise.css
+WRITTEN BY:  Daniel Martin Lundeby
+WHEN:  November 2016
+PURPOSE:  Supplies available Ham Crate products, with links.
+*/
+
 #menu-bar > ul > li:nth-child(7){
   background-color: #D9CB9E;
 }

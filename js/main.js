@@ -1,3 +1,10 @@
+/*
+ FILE NAME: main.js
+ WRITTEN BY: Henry Skorpe Sjøen and Daniel Lundeby
+ WHEN:  November 2016
+ PURPOSE:  Contains JavaScript used by all or most of the webpages. This includes the sticky header and Google Analytics.
+ */
+
 // Stick the header to the top of the page when scrolling past the header region
 window.addEventListener('scroll', function() {
     let menu_bar = document.getElementById('menu-bar');
@@ -8,6 +15,7 @@ window.addEventListener('scroll', function() {
     let y_pos = window.pageYOffset;
     let limit = document.getElementsByClassName('header')[0].offsetHeight;
 
+    // Check if the page is in a position where the header should be sticky.
     if (y_pos > limit) {
         menu_bar.style.position = "fixed";
         menu_bar_replacement.style.display = "block";
