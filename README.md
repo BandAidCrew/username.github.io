@@ -36,4 +36,4 @@ Here is a quick overview of the folders and whats inside.
 | Javascript-folder            |  js/           | All Javascript code goes in this folder                                               |
 | Folder for Subpages          |  pages/        | All subpages goes into this folder.                                                   |
 | Robot-textfile               |  robots.txt    | Check http://www.robotstxt.org/robotstxt.html for more information                    |
-| Template folder              | └── templates/ | All our template-files goes in this folder.                                           |
+| Template folder              |  templates/    | All our template-files goes in this folder.                                           |
